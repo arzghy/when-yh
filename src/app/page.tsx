@@ -51,7 +51,7 @@ export default function Home() {
             {/* Main CTA */}
             <div className="mb-16">
               <Link
-                href="/beranda"
+                href="/dashboard"
                 className="inline-flex items-center px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-lg font-semibold rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 <svg

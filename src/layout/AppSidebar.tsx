@@ -14,6 +14,7 @@ import {
   PageIcon,
   PieChartIcon,
   PlugInIcon,
+  FileIcon as RekapIcon,
   TableIcon,
   UserCircleIcon,
 } from "../icons/index";
@@ -30,7 +31,12 @@ const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    subItems: [{ name: "Ecommerce", path: "/beranda", pro: false }],
+    path: "/dashboard",
+  },
+  {
+    icon: <RekapIcon />,
+    name: "Rekap",
+    path: "/rekap",
   },
   {
     icon: <CalenderIcon />,
@@ -42,7 +48,6 @@ const navItems: NavItem[] = [
     name: "User Profile",
     path: "/profile",
   },
-
   {
     name: "Forms",
     icon: <ListIcon />,
